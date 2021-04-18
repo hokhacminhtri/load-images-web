@@ -38,8 +38,6 @@ const ReactFirebaseFileUpload = () => {
     );
   };
 
-  console.log("image: ", image);
-
   return (
     <div>
       <label for="file">Uploading progress:</label>
