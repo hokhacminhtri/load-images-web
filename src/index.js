@@ -42,6 +42,7 @@ const ReactFirebaseFileUpload = () => {
 
   return (
     <div>
+      <label for="file">Uploading progress:</label>
       <progress value={progress} max="100" />
       <br />
       <br />

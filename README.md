@@ -8,3 +8,5 @@
 - Hiển thị danh sách hình đã post trước đó dưới 2 dạng: Slideshow & List
 
 ## Hosting site demo lên Heroku
+
+- Link project: https://ecus04-load-images-app.herokuapp.com/
