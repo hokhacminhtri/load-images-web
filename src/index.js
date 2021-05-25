@@ -14,6 +14,7 @@ const ReactFirebaseFileUpload = () => {
   };
 
   const handleUpload = () => {
+    if (image === null) return;
     const uploadTask = storage.ref(`images/${image.name}`).put(image);
     uploadTask.on(
       "state_changed",
