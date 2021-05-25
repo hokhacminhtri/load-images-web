@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { render } from "react-dom";
 import { storage } from "./firebase";
 
+import MarketingForm from "./components/MarketingForm/index";
+
 const ReactFirebaseFileUpload = () => {
   const [image, setImage] = useState(null);
   const [url, setUrl] = useState("");
@@ -41,6 +43,9 @@ const ReactFirebaseFileUpload = () => {
 
   return (
     <div>
+      <MarketingForm />
+      <br />
+      <br />
       <label for="file">Uploading progress:</label>
       <progress value={progress} max="100" />
       <br />
